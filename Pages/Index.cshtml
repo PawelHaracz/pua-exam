@@ -1,0 +1,9 @@
+@page "/index"
+@model PUAExam.Pages.Index
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Html.DisplayFor(IndexModel => IndexModel.DisplayWords)</h1>
+</div>
